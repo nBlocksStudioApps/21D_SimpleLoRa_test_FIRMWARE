@@ -6,7 +6,7 @@ The Shematic Design repository is here: [21D_SimpleLoRa_test_SchDESIGN](https://
 
 ## Design
 We are using a multi board Design: Nodes 'A' are for the transmitting board and Nodes 'B' for the Receiving board.
-The Transmitting board sends a new couner value every 5sec and the Receiving board prints that value to the serial port.
+The Transmitting board sends a new counter value every 5sec and the Receiving board prints that value to the serial port.
 
 <p align="center">
 <img
@@ -16,7 +16,7 @@ width = 800
 </p>
 
 ## Setup
-n-Blocks PRO series board allow fast and compact prototyping.
+n-Blocks PRO series boards allow fast and compact prototyping.
 We are using 
  *  2x n-PRO-40 Lora boards
  *  2x n-PRO-24 pinstrip breakout boards
@@ -35,7 +35,7 @@ height = 250
 
 
 ## Receiver 
-Node B1 is connected to PC terminal  via the n-PRO-DAP board USB interface. The received characters are printed in the screen. In every transmission we see the next value of the transmitted Counter content.
+The Receiver board is connected to PC terminal  via the n-PRO-DAP board USB interface. The received characters are printed in the screen. In every transmission we see the next value of the transmitted Counter content.
 <p align="center">
 <img
 src="img/03.PNG"
