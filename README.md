@@ -56,13 +56,28 @@ width = 600
 />
 
 ## Flash programming
-In this example we are using `SM32 ST-Link Utility` software to program the Microprocessor Flash memory. TX / RX board is programmed with the respective binary file  
+In this example we are using [SM32 ST-Link Utility](https://www.st.com/en/development-tools/stsw-link004.html) software to program the Microprocessor Flash memory. TX / RX board is programmed with the respective binary file  
 <p align="center">
 <img
 src="img/04.PNG"
 width = 600
 />
 </p>
+
+## Radio current consumption during Transmission
+The pulses, in below 2 images, are created from the TX current on a 10Ω shunt resistor on the power supply line of the TX board power.
+
+The smaller (6 mA) current pulse is for 0 dBm and the larger (125 mA) for 20 dBm power
+
+<img
+src="img/09.PNG"
+width = 300
+/> <img
+src="img/10.PNG"
+width = 300
+/>
+
+For this test the SimpleLora Node parameter `useleds` is set to `false` so the TX Led current does not disrupt the Radio transmission current measurement
 
 ## Tests
  *  TX every 5s :heavy_check_mark:
