@@ -63,3 +63,10 @@ src="img/04.PNG"
 width = 600
 />
 </p>
+
+## Tests
+ *  TX every 5s :heavy_check_mark:
+ *  TX every 1s :heavy_check_mark: 
+ *  Receive and print TX Counter up to 100 :heavy_check_mark: 
+ *  Leds are ON for 4ms :heavy_check_mark:
+ *  TX_led and RX_led seem about synchronized to naked eye :heavy_check_mark:

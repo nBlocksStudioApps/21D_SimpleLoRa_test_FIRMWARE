@@ -2,9 +2,9 @@
     {
         "module": "[fill]",
         "size": {
-            ".text": 44,
+            ".text": 48,
             ".data": 4,
-            ".bss": 23,
+            ".bss": 19,
             ".text-delta": 0,
             ".data-delta": 0,
             ".bss-delta": 0
@@ -13,7 +13,7 @@
     {
         "module": "[lib]\\c.a",
         "size": {
-            ".text": 28644,
+            ".text": 31608,
             ".data": 2472,
             ".bss": 89,
             ".text-delta": 0,
@@ -24,7 +24,7 @@
     {
         "module": "[lib]\\gcc.a",
         "size": {
-            ".text": 12024,
+            ".text": 11688,
             ".data": 0,
             ".bss": 0,
             ".text-delta": 0,
@@ -46,9 +46,9 @@
     {
         "module": "main.o",
         "size": {
-            ".text": 470,
+            ".text": 324,
             ".data": 0,
-            ".bss": 2184,
+            ".bss": 1748,
             ".text-delta": 0,
             ".data-delta": 0,
             ".bss-delta": 0
@@ -57,7 +57,7 @@
     {
         "module": "mbed-os\\drivers",
         "size": {
-            ".text": 1854,
+            ".text": 3360,
             ".data": 0,
             ".bss": 532,
             ".text-delta": 0,
@@ -79,9 +79,9 @@
     {
         "module": "mbed-os\\platform",
         "size": {
-            ".text": 3508,
+            ".text": 5734,
             ".data": 260,
-            ".bss": 344,
+            ".bss": 368,
             ".text-delta": 0,
             ".data-delta": 0,
             ".bss-delta": 0
@@ -90,9 +90,9 @@
     {
         "module": "mbed-os\\targets",
         "size": {
-            ".text": 13592,
+            ".text": 14120,
             ".data": 4,
-            ".bss": 782,
+            ".bss": 806,
             ".text-delta": 0,
             ".data-delta": 0,
             ".bss-delta": 0
@@ -101,7 +101,7 @@
     {
         "module": "nlib\\Counter",
         "size": {
-            ".text": 146,
+            ".text": 72,
             ".data": 0,
             ".bss": 0,
             ".text-delta": 0,
@@ -112,7 +112,7 @@
     {
         "module": "nlib\\SimpleLoRa",
         "size": {
-            ".text": 4192,
+            ".text": 4216,
             ".data": 0,
             ".bss": 0,
             ".text-delta": 0,
@@ -121,20 +121,9 @@
         }
     },
     {
-        "module": "nlib\\StringFormat",
+        "module": "nlib\\StringSerial",
         "size": {
-            ".text": 234,
-            ".data": 0,
-            ".bss": 0,
-            ".text-delta": 0,
-            ".data-delta": 0,
-            ".bss-delta": 0
-        }
-    },
-    {
-        "module": "nlib\\Ticker",
-        "size": {
-            ".text": 310,
+            ".text": 188,
             ".data": 0,
             ".bss": 0,
             ".text-delta": 0,
@@ -155,9 +144,9 @@
     },
     {
         "summary": {
-            "static_ram": 6952,
+            "static_ram": 6560,
             "static_ram_delta": 0,
-            "total_flash": 70576,
+            "total_flash": 76916,
             "total_flash_delta": 0
         }
     }

@@ -11108,7 +11108,7 @@ OUTPUT(F:/prj_soft/mbed-studio/21D_SimpleLoRa_test/BUILD/DISCO_L072CZ_LRWAN1/GCC
  .comment       0x00000079       0x7a BUILD/DISCO_L072CZ_LRWAN1/GCC_ARM_RX/nlib/StringSerial/stringserial.o
  .comment       0x00000079       0x7a BUILD/DISCO_L072CZ_LRWAN1/GCC_ARM_RX/nlib/nworkbench.o
 
-.debug_info     0x00000000    0xb2c86
+.debug_info     0x00000000    0xb2c73
  .debug_info    0x00000000     0x616e BUILD/DISCO_L072CZ_LRWAN1/GCC_ARM_RX/main.o
  .debug_info    0x0000616e     0x41e6 BUILD/DISCO_L072CZ_LRWAN1/GCC_ARM_RX/mbed-os/drivers/source/AnalogIn.o
  .debug_info    0x0000a354     0x1cc4 BUILD/DISCO_L072CZ_LRWAN1/GCC_ARM_RX/mbed-os/drivers/source/DigitalInOut.o
@@ -11170,11 +11170,11 @@ OUTPUT(F:/prj_soft/mbed-studio/21D_SimpleLoRa_test/BUILD/DISCO_L072CZ_LRWAN1/GCC
  .debug_info    0x0008a80b     0x55d0 BUILD/DISCO_L072CZ_LRWAN1/GCC_ARM_RX/nlib/Counter/counter.o
  .debug_info    0x0008fddb     0x769f BUILD/DISCO_L072CZ_LRWAN1/GCC_ARM_RX/nlib/SimpleLoRa/SX1272_Lib/sx127x.o
  .debug_info    0x0009747a     0x7b73 BUILD/DISCO_L072CZ_LRWAN1/GCC_ARM_RX/nlib/SimpleLoRa/SX1272_Lib/sx127x_lora.o
- .debug_info    0x0009efed     0x7f51 BUILD/DISCO_L072CZ_LRWAN1/GCC_ARM_RX/nlib/SimpleLoRa/SimpleLoRa.o
- .debug_info    0x000a6f3e     0x5d07 BUILD/DISCO_L072CZ_LRWAN1/GCC_ARM_RX/nlib/StringSerial/stringserial.o
- .debug_info    0x000acc45     0x6041 BUILD/DISCO_L072CZ_LRWAN1/GCC_ARM_RX/nlib/nworkbench.o
+ .debug_info    0x0009efed     0x7f3e BUILD/DISCO_L072CZ_LRWAN1/GCC_ARM_RX/nlib/SimpleLoRa/SimpleLoRa.o
+ .debug_info    0x000a6f2b     0x5d07 BUILD/DISCO_L072CZ_LRWAN1/GCC_ARM_RX/nlib/StringSerial/stringserial.o
+ .debug_info    0x000acc32     0x6041 BUILD/DISCO_L072CZ_LRWAN1/GCC_ARM_RX/nlib/nworkbench.o
 
-.debug_abbrev   0x00000000    0x16c93
+.debug_abbrev   0x00000000    0x16c89
  .debug_abbrev  0x00000000      0x9a6 BUILD/DISCO_L072CZ_LRWAN1/GCC_ARM_RX/main.o
  .debug_abbrev  0x000009a6      0x918 BUILD/DISCO_L072CZ_LRWAN1/GCC_ARM_RX/mbed-os/drivers/source/AnalogIn.o
  .debug_abbrev  0x000012be      0x4d5 BUILD/DISCO_L072CZ_LRWAN1/GCC_ARM_RX/mbed-os/drivers/source/DigitalInOut.o
@@ -11236,11 +11236,11 @@ OUTPUT(F:/prj_soft/mbed-studio/21D_SimpleLoRa_test/BUILD/DISCO_L072CZ_LRWAN1/GCC
  .debug_abbrev  0x00012deb      0x94b BUILD/DISCO_L072CZ_LRWAN1/GCC_ARM_RX/nlib/Counter/counter.o
  .debug_abbrev  0x00013736      0x9e6 BUILD/DISCO_L072CZ_LRWAN1/GCC_ARM_RX/nlib/SimpleLoRa/SX1272_Lib/sx127x.o
  .debug_abbrev  0x0001411c      0xa68 BUILD/DISCO_L072CZ_LRWAN1/GCC_ARM_RX/nlib/SimpleLoRa/SX1272_Lib/sx127x_lora.o
- .debug_abbrev  0x00014b84      0xb6b BUILD/DISCO_L072CZ_LRWAN1/GCC_ARM_RX/nlib/SimpleLoRa/SimpleLoRa.o
- .debug_abbrev  0x000156ef      0xa21 BUILD/DISCO_L072CZ_LRWAN1/GCC_ARM_RX/nlib/StringSerial/stringserial.o
- .debug_abbrev  0x00016110      0xb83 BUILD/DISCO_L072CZ_LRWAN1/GCC_ARM_RX/nlib/nworkbench.o
+ .debug_abbrev  0x00014b84      0xb61 BUILD/DISCO_L072CZ_LRWAN1/GCC_ARM_RX/nlib/SimpleLoRa/SimpleLoRa.o
+ .debug_abbrev  0x000156e5      0xa21 BUILD/DISCO_L072CZ_LRWAN1/GCC_ARM_RX/nlib/StringSerial/stringserial.o
+ .debug_abbrev  0x00016106      0xb83 BUILD/DISCO_L072CZ_LRWAN1/GCC_ARM_RX/nlib/nworkbench.o
 
-.debug_loc      0x00000000    0x22589
+.debug_loc      0x00000000    0x22527
  .debug_loc     0x00000000      0x102 BUILD/DISCO_L072CZ_LRWAN1/GCC_ARM_RX/main.o
  .debug_loc     0x00000102      0x43a BUILD/DISCO_L072CZ_LRWAN1/GCC_ARM_RX/mbed-os/drivers/source/AnalogIn.o
  .debug_loc     0x0000053c      0x1ec BUILD/DISCO_L072CZ_LRWAN1/GCC_ARM_RX/mbed-os/drivers/source/DigitalInOut.o
@@ -11297,9 +11297,9 @@ OUTPUT(F:/prj_soft/mbed-studio/21D_SimpleLoRa_test/BUILD/DISCO_L072CZ_LRWAN1/GCC
  .debug_loc     0x0001ea5d      0x222 BUILD/DISCO_L072CZ_LRWAN1/GCC_ARM_RX/nlib/Counter/counter.o
  .debug_loc     0x0001ec7f     0x14ad BUILD/DISCO_L072CZ_LRWAN1/GCC_ARM_RX/nlib/SimpleLoRa/SX1272_Lib/sx127x.o
  .debug_loc     0x0002012c      0xd7f BUILD/DISCO_L072CZ_LRWAN1/GCC_ARM_RX/nlib/SimpleLoRa/SX1272_Lib/sx127x_lora.o
- .debug_loc     0x00020eab      0xf29 BUILD/DISCO_L072CZ_LRWAN1/GCC_ARM_RX/nlib/SimpleLoRa/SimpleLoRa.o
- .debug_loc     0x00021dd4      0x346 BUILD/DISCO_L072CZ_LRWAN1/GCC_ARM_RX/nlib/StringSerial/stringserial.o
- .debug_loc     0x0002211a      0x46f BUILD/DISCO_L072CZ_LRWAN1/GCC_ARM_RX/nlib/nworkbench.o
+ .debug_loc     0x00020eab      0xec7 BUILD/DISCO_L072CZ_LRWAN1/GCC_ARM_RX/nlib/SimpleLoRa/SimpleLoRa.o
+ .debug_loc     0x00021d72      0x346 BUILD/DISCO_L072CZ_LRWAN1/GCC_ARM_RX/nlib/StringSerial/stringserial.o
+ .debug_loc     0x000220b8      0x46f BUILD/DISCO_L072CZ_LRWAN1/GCC_ARM_RX/nlib/nworkbench.o
 
 .debug_aranges  0x00000000     0x2620
  .debug_aranges
@@ -11431,7 +11431,7 @@ OUTPUT(F:/prj_soft/mbed-studio/21D_SimpleLoRa_test/BUILD/DISCO_L072CZ_LRWAN1/GCC
  .debug_aranges
                 0x00002558       0xc8 BUILD/DISCO_L072CZ_LRWAN1/GCC_ARM_RX/nlib/nworkbench.o
 
-.debug_ranges   0x00000000     0x4b38
+.debug_ranges   0x00000000     0x4a90
  .debug_ranges  0x00000000       0x70 BUILD/DISCO_L072CZ_LRWAN1/GCC_ARM_RX/main.o
  .debug_ranges  0x00000070       0xe0 BUILD/DISCO_L072CZ_LRWAN1/GCC_ARM_RX/mbed-os/drivers/source/AnalogIn.o
  .debug_ranges  0x00000150       0x80 BUILD/DISCO_L072CZ_LRWAN1/GCC_ARM_RX/mbed-os/drivers/source/DigitalInOut.o
@@ -11491,11 +11491,11 @@ OUTPUT(F:/prj_soft/mbed-studio/21D_SimpleLoRa_test/BUILD/DISCO_L072CZ_LRWAN1/GCC
  .debug_ranges  0x00003dc8       0x98 BUILD/DISCO_L072CZ_LRWAN1/GCC_ARM_RX/nlib/Counter/counter.o
  .debug_ranges  0x00003e60      0x488 BUILD/DISCO_L072CZ_LRWAN1/GCC_ARM_RX/nlib/SimpleLoRa/SX1272_Lib/sx127x.o
  .debug_ranges  0x000042e8      0x2a8 BUILD/DISCO_L072CZ_LRWAN1/GCC_ARM_RX/nlib/SimpleLoRa/SX1272_Lib/sx127x_lora.o
- .debug_ranges  0x00004590      0x320 BUILD/DISCO_L072CZ_LRWAN1/GCC_ARM_RX/nlib/SimpleLoRa/SimpleLoRa.o
- .debug_ranges  0x000048b0       0xd0 BUILD/DISCO_L072CZ_LRWAN1/GCC_ARM_RX/nlib/StringSerial/stringserial.o
- .debug_ranges  0x00004980      0x1b8 BUILD/DISCO_L072CZ_LRWAN1/GCC_ARM_RX/nlib/nworkbench.o
+ .debug_ranges  0x00004590      0x278 BUILD/DISCO_L072CZ_LRWAN1/GCC_ARM_RX/nlib/SimpleLoRa/SimpleLoRa.o
+ .debug_ranges  0x00004808       0xd0 BUILD/DISCO_L072CZ_LRWAN1/GCC_ARM_RX/nlib/StringSerial/stringserial.o
+ .debug_ranges  0x000048d8      0x1b8 BUILD/DISCO_L072CZ_LRWAN1/GCC_ARM_RX/nlib/nworkbench.o
 
-.debug_line     0x00000000    0x2fa63
+.debug_line     0x00000000    0x2fa8a
  .debug_line    0x00000000      0xc0b BUILD/DISCO_L072CZ_LRWAN1/GCC_ARM_RX/main.o
  .debug_line    0x00000c0b      0xcc1 BUILD/DISCO_L072CZ_LRWAN1/GCC_ARM_RX/mbed-os/drivers/source/AnalogIn.o
  .debug_line    0x000018cc      0x7ae BUILD/DISCO_L072CZ_LRWAN1/GCC_ARM_RX/mbed-os/drivers/source/DigitalInOut.o
@@ -11557,9 +11557,9 @@ OUTPUT(F:/prj_soft/mbed-studio/21D_SimpleLoRa_test/BUILD/DISCO_L072CZ_LRWAN1/GCC
  .debug_line    0x000293c1      0xb3a BUILD/DISCO_L072CZ_LRWAN1/GCC_ARM_RX/nlib/Counter/counter.o
  .debug_line    0x00029efb     0x15f7 BUILD/DISCO_L072CZ_LRWAN1/GCC_ARM_RX/nlib/SimpleLoRa/SX1272_Lib/sx127x.o
  .debug_line    0x0002b4f2     0x17b6 BUILD/DISCO_L072CZ_LRWAN1/GCC_ARM_RX/nlib/SimpleLoRa/SX1272_Lib/sx127x_lora.o
- .debug_line    0x0002cca8     0x12cc BUILD/DISCO_L072CZ_LRWAN1/GCC_ARM_RX/nlib/SimpleLoRa/SimpleLoRa.o
- .debug_line    0x0002df74      0xc2c BUILD/DISCO_L072CZ_LRWAN1/GCC_ARM_RX/nlib/StringSerial/stringserial.o
- .debug_line    0x0002eba0      0xec3 BUILD/DISCO_L072CZ_LRWAN1/GCC_ARM_RX/nlib/nworkbench.o
+ .debug_line    0x0002cca8     0x12f3 BUILD/DISCO_L072CZ_LRWAN1/GCC_ARM_RX/nlib/SimpleLoRa/SimpleLoRa.o
+ .debug_line    0x0002df9b      0xc2c BUILD/DISCO_L072CZ_LRWAN1/GCC_ARM_RX/nlib/StringSerial/stringserial.o
+ .debug_line    0x0002ebc7      0xec3 BUILD/DISCO_L072CZ_LRWAN1/GCC_ARM_RX/nlib/nworkbench.o
 
 .debug_str      0x00000000    0x16ccd
  .debug_str     0x00000000     0x3375 BUILD/DISCO_L072CZ_LRWAN1/GCC_ARM_RX/main.o
@@ -11685,7 +11685,7 @@ OUTPUT(F:/prj_soft/mbed-studio/21D_SimpleLoRa_test/BUILD/DISCO_L072CZ_LRWAN1/GCC
  .debug_str     0x000159e9      0xa45 BUILD/DISCO_L072CZ_LRWAN1/GCC_ARM_RX/nlib/SimpleLoRa/SX1272_Lib/sx127x_lora.o
                                0x44c2 (size before relaxing)
  .debug_str     0x0001642e      0x3fc BUILD/DISCO_L072CZ_LRWAN1/GCC_ARM_RX/nlib/SimpleLoRa/SimpleLoRa.o
-                               0x4a54 (size before relaxing)
+                               0x4a4a (size before relaxing)
  .debug_str     0x0001682a      0x14a BUILD/DISCO_L072CZ_LRWAN1/GCC_ARM_RX/nlib/StringSerial/stringserial.o
                                0x35e3 (size before relaxing)
  .debug_str     0x00016974      0x359 BUILD/DISCO_L072CZ_LRWAN1/GCC_ARM_RX/nlib/nworkbench.o

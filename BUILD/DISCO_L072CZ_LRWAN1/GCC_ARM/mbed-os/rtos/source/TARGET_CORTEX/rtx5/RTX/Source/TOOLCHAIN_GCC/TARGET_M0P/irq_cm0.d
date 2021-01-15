@@ -1,0 +1,3 @@
+BUILD\DISCO_L072CZ_LRWAN1\GCC_ARM\mbed-os\rtos\source\TARGET_CORTEX\rtx5\RTX\Source\TOOLCHAIN_GCC\TARGET_M0P\irq_cm0.o: \
+ mbed-os\rtos\source\TARGET_CORTEX\rtx5\RTX\Source\TOOLCHAIN_GCC\TARGET_M0P\irq_cm0.S \
+ BUILD/DISCO_L072CZ_LRWAN1/GCC_ARM\mbed_config.h
