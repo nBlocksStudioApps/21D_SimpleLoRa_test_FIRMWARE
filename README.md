@@ -15,6 +15,8 @@ width = 800
 />
 </p>
 
+<!-- pagebreak -->
+
 ## Setup
 n-Blocks PRO series boards allow fast and compact prototyping.
 We are using 
@@ -55,6 +57,8 @@ src="img/05.PNG"
 width = 600
 />
 
+<!-- pagebreak -->
+
 ## Flash programming
 In this example we are using [SM32 ST-Link Utility](https://www.st.com/en/development-tools/stsw-link004.html) software to program the Microprocessor Flash memory. TX / RX board is programmed with the respective binary file  
 <p align="center">
@@ -63,6 +67,8 @@ src="img/04.PNG"
 width = 600
 />
 </p>
+
+<!-- pagebreak -->
 
 ## Radio current consumption during Transmission
 The pulses, in below 2 images, are created from the TX current on a 10Ω shunt resistor on the power supply line of the TX board power.
@@ -79,9 +85,77 @@ width = 300
 
 For this test the SimpleLora Node parameter `useleds` is set to `false` so the TX Led current does not disrupt the Radio transmission current measurement
 
+
+## Time on air
+The Transmission current consumption, [indicates] a time on air (Payload 20, SF 9) in the range of 320ms. From our tests, the time-on-air, is affected by the SimpleLora Node Payload parameter. As is also affected by the Spreading Factor.
+
+----
+
+For Payload=20 and Spreading factor SF=9 the Time on air is 320 ms  
+
+<p align="center">
+<img
+src="img/09.PNG"
+width = 300
+/> 
+</p>
+
+----
+
+For Payload=20 and  **SF=10** the Time on-air is 600 ms
+<p align="center">
+<img
+src="img/11.PNG"
+width = 300
+/>
+</p>
+
+----
+
+For **Payload=64** and  SF=9 the Time on-air is 620 ms
+<p align="center">
+<img
+src="img/12.PNG"
+width = 300
+/>
+</p>
+
+----
+
+A Transmitted payload > 64 Bytes, is reduced at reception to 20 Bytes
+<p align="center">
+<img
+src="img/13.PNG"
+width = 800
+/>
+</p>
+
+<p align="center">
+<img
+src="img/14.PNG"
+width = 300
+/>
+</p>
+
+
 ## Tests
  *  TX every 5s :heavy_check_mark:
  *  TX every 1s :heavy_check_mark: 
- *  Receive and print TX Counter up to 100 :heavy_check_mark: 
- *  Leds are ON for 4ms :heavy_check_mark:
+ *  Receive and print the Transmitted Counter up to 100 :heavy_check_mark: 
+ *  The printed message form and size, as expected :heavy_check_mark: 
+ *  TX or RX Led is ON for 4ms :heavy_check_mark:
  *  TX_led (TX board) and RX_led (RX board) seem about synchronized to naked eye :heavy_check_mark:
+ *  Time on Air changes with the Spreading Factor :heavy_check_mark:
+ *  Receiver does not receive for different Spreading Factor in Transmission :heavy_check_mark:
+ *  Receiver does receive for smaller Payload parameter in Transmission :heavy_check_mark:
+*  Receiver does reduce a larger Payload parameter in Transmission :heavy_check_mark:
+ *  Time on Air changes with the Payload :heavy_check_mark:
+ *  Transmission current pulse is increased with the TX Power :heavy_check_mark:
+*  Confirm Time on air with the LoRa Modem Calculator Tool :x:
+*  Time on air change consistently with higher Coding Rate :x:
+
+
+## Links
+ *  [Semtech SX1276: Semtech SX1272 LoRa Calculator](https://www.semtech.com/products/wireless-rf/lora-transceivers/sx1276#download-resources)
+ *  [airtime](https://www.loratools.nl/#/airtime)
+ *  [ttn airtime calculator](airtime)

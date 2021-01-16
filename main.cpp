@@ -15,7 +15,7 @@
 // -*-*- List of node objects -*-*-
 nBlock_Ticker            nb_nBlockNode0_Ticker       (5000);
 nBlock_Counter           nb_nBlockNode1_Counter      (12);
-nBlock_StringFormat      nb_nBlockNode2_StringFormat ("%d ");
+nBlock_StringFormat      nb_nBlockNode2_StringFormat (".123456789ABCDEF.123456789ABCDEF.123456789ABCDEF.123456789ABCDEF %d ");
 nBlock_SimpleLoRa        nb_nBlockNode3_SimpleLoRa   (true, 868.0, 0x00, 0x08, 4, 9, 250.0, false, false, 20, PA_7, PA_6, PB_3, PA_15, PC_0, PB_4, PB_1, 0, POWER_0, PA_12, true, PB_6, PB_7);
 
 // -*-*- List of connection objects -*-*-
