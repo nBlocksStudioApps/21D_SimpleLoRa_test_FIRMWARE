@@ -137,6 +137,44 @@ width = 300
 />
 </p>
 
+## Range testing
+
+----
+
+No errors in the tested range, with conditions:
+
+> @ 0dBm transmission power and wire antenna @ length=86mm (1/4 wavelength):
+ 
+ * Inside the house, tested all rooms: 5-15 meters
+ * Receiver indoors and Transmitter in the garden: 40 meters  
+
+<img
+src="img/15.PNG"
+width = 800
+/>
+
+----
+
+<img
+src="img/16.PNG"
+height = 400
+/> <img
+src="img/17.PNG"
+height = 400
+/> <img
+src="img/18.PNG"
+height = 400
+/> 
+
+<img
+src="img/19.PNG"
+height = 400
+/> <img
+src="img/20.PNG"
+height = 400
+/>
+
+----
 
 ## Tests
  *  TX every 5s :heavy_check_mark:
@@ -153,6 +191,7 @@ width = 300
  *  Transmission current pulse is increased with the TX Power :heavy_check_mark:
 *  Confirm Time on air with the LoRa Modem Calculator Tool :x:
 *  Time on air change consistently with higher Coding Rate :x:
+*  Range 40 meter no errors at 0 dBm wire antenna 1/4 wavelength:heavy_check_mark:
 
 
 ## Links
