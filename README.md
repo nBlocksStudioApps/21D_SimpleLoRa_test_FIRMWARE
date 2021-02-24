@@ -1,4 +1,4 @@
-# 21D_SimpleLora_test
+# [21D_SimpleLora_test](https://github.com/nBlocksStudioApps/21D_SimpleLoRa_test_FIRMWARE)
 A project to test the Node [SimpleLoRa](https://github.com/nBlocksStudioNodes/nblocks_simplelora).
 
 The Shematic Design repository is here: [21D_SimpleLoRa_test_SchDESIGN](https://github.com/nBlocksStudioApps/21D_SimpleLoRa_test_SchDESIGN)
